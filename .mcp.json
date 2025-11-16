@@ -6,6 +6,14 @@
                 "artisan",
                 "boost:mcp"
             ]
+        },
+        "plan-director": {
+            "command": "php",
+            "args": [
+                "artisan",
+                "mcp:serve",
+                "plan-director"
+            ]
         }
     }
 }
